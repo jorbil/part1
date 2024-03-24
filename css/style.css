@@ -1,0 +1,60 @@
+.nav_bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #354f7e;
+    max-height: 80px;
+    height: 80px;
+    width: 100%;
+    display: flex;
+}
+
+.nav_option{
+    float: left;
+}
+
+.nav_option .nav_content{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 22px 12px 0 12px;
+    height: 58px;
+    text-decoration: none;
+    cursor: default;
+    font-size: 28px;
+}
+
+.nav_logo{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0 12px 0 12px;
+    height: 80px;
+    text-decoration: none;
+    cursor: default;
+}
+
+.nav_option .nav_content:hover{
+    color: #1f3253;
+    background-color: #e0e6f1;
+    cursor: pointer;
+}
+
+.nav_option .nav_logo:hover{
+    color: #1f3253;
+    background-color: #e0e6f1;
+    cursor: pointer;
+}
+
+.logo_content{
+    height: 80px;
+}
+
+.nav_option .nav_active{
+    background-color: #1a2d52;
+}
+
+body{
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+}
