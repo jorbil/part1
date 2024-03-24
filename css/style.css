@@ -2,10 +2,12 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow:visible;
     background-color: #354f7e;
     border-radius: 0 0 12px 12px;
-    max-height: 48px;
+    max-height: 80px;
+    width: 100%;
+    position:fixed;
 }
 
 .nav_option{
@@ -13,11 +15,22 @@
 }
 
 .nav_option .nav_content{
-    display: block;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 22px 12px 0 12px;
+    height: 58px;
+    text-decoration: none;
+    cursor: default;
+    font-size: 28px;
+}
+
+.nav_logo{
+    display: inline-block;
     color: white;
     text-align: center;
     padding: 0 12px 0 12px;
-    height: 48px;
+    height: 80px;
     text-decoration: none;
     cursor: default;
 }
@@ -28,8 +41,14 @@
     cursor: pointer;
 }
 
-.nav_logo{
-    height: 48px;
+.nav_option .nav_logo:hover{
+    color: #1f3253;
+    background-color: #e0e6f1;
+    cursor: pointer;
+}
+
+.logo_content{
+    height: 80px;
 }
 
 body{
